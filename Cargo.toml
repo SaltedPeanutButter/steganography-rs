@@ -1,6 +1,6 @@
 [package]
-name = "sten_rs"
-version = "1.0.0"
+name = "steganography"
+version = "0.1.0"
 edition = "2021"
 authors = ["Nguyen Thai Binh <binhnt.dev@icloud.com>"]
 license = "MIT"
@@ -22,6 +22,10 @@ path = "src/cli.rs"
 [[bin]]
 name = "steganography_repl"
 path = "src/repl.rs"
+
+[[bin]]
+name = "steganography_api"
+path = "src/api.rs"
 
 [dependencies]
 flate2 = "1.0.26"

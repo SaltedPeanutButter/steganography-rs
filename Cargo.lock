@@ -131,8 +131,8 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "238abfbb77c1915110ad968465608b68e869e0772622c9656714e73e5a1a522f"
 
 [[package]]
-name = "sten_rs"
-version = "1.0.0"
+name = "steganography"
+version = "0.1.0"
 dependencies = [
  "flate2",
  "png",
