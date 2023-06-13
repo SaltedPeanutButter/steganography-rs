@@ -25,9 +25,10 @@ path = "src/repl.rs"
 
 [[bin]]
 name = "steganography_api"
-path = "src/api.rs"
+path = "src/api/main.rs"
 
 [dependencies]
 flate2 = "1.0.26"
 png = "0.17.8"
 rand = "0.8.5"
+rocket = "=0.5.0-rc.3"
