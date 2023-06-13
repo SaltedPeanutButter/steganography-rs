@@ -2,7 +2,7 @@
 
 #[get("/")]
 fn index() -> &'static str {
-    "Test"
+    "Hello there! It looks like you found my API entry point. Do note that the API is private, please do not attempt to use :)"
 }
 
 #[launch]
